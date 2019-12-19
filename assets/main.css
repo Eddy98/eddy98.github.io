@@ -100,6 +100,9 @@
 .image{
   display: inline !important;
 }
+.image-radius{
+  border-radius:5%;
+}
 
 
 .title:before, .title:after {
@@ -130,4 +133,11 @@ span {
 }
 .booz-title-3{
   color: #2B836C;
+}
+
+.uf-title{
+  color: #F97401;
+}
+.uf-title-2{
+  color: #1610B3;
 }
