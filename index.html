@@ -1,83 +1,122 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="css/main.css">
-
-  <title>Eduardo D. Graziano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Eduardo Graziano</title>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <link rel="stylesheet" href="assets/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Eduardo D. Graziano</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#me">Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#involvement">Involvement</a>
-            </li>
-          </ul>
+  <div>
+    <div class="ui pointing menu top-menu over stackable">
+      <a class="item">
+        About Me
+      </a>
+      <a class="item" href="#experience">
+        Experience
+      </a>
+      <a class="item">
+        Projects
+      </a>
+      <a class="item">
+        Involvement
+      </a>
+      <a class="item">
+        Contact Me
+      </a>
+      <div class="right menu" id="content-desktop">
+        <div class="item padding-0 padding-right-15">
+          <div>
+            <img class="ui image menu-img" src="./assets/images/e.png" />
+            <div class="overlay">
+              <img class="ui image menu-img" src="./assets/images/g.png" />
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </div>
+    <div class="ui container">
+      <section id="home">
+        <div class="ui grid stackable">
+          <div class="sixteen wide column padding-70"></div>
+          <div class="two wide column"></div>
+          <div class="eight wide column padding-top-90 centered">
+            <p class="playfair size-48">Eduardo D. Graziano</p>
+            <p class="playfair size-14">Senior Computer Science student at the University of Florida. Passionate about technology, with the focus of developing software and applications with the purpose of helping others. Mostly experienced in full-stack development, including the MERN, and MEAN stack technologies.</p>
+            <a class="ui secondary button" href="./assets/ResumeAUG2019.pdf" download target="_blank" id="content-desktop">
+              Resume
+            </a>
+            <a class="ui secondary button fluid" href="./assets/ResumeAUG2019.pdf" download target="_blank" id="content-mobile">
+              Resume
+            </a>
+          </div>
+          <div class="six wide column center aligned">
+            <img class="ui medium circular image" src="https://semantic-ui.com/images/avatar/large/steve.jpg">
+          </div>
+          <div class="sixteen wide column margin-top">
+            <hr>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <div class="ui grid stackable">
+          <div class="sixteen wide column padding-70"></div>
+          <div class="two wide column"></div>
+          <div class="ui center aligned segment twelve wide column">
+            <p class="playfair size-40 title">Experience</p>
+            <div class="sixteen wide column padding-50"></div>
+            <div class="ui grid stackable">
+              <div class="row">
+                <div class="one wide column"></div>
+                <div class="five wide column">
+                  <img class="ui img-size image circular" src="./assets/images/amex.png">
+                </div>
+                <div class="one wide column"></div>
+                <div class="eight wide column left aligned">
+                  <div>
+                    <h2 class="amex-title in-line">American Express</h2>
+                    <hr class="in-line margin-right-10 margin-left-10">
+                    <h4 class="in-line">New York, NY</h4>
+                    <h5 class="margin-top-0 padding-top-5">Technology Intern</h5>
+                  </div>
+                  <p class="playfair size-16 padding-top-10">This is a paragraph that will cpntain information about my intership in american express, but i will do that later becase  i am being lazzy right, just writing random stuff to see how it look  thank bvery much bye</p>
+                </div>
+                <div class="one wide column"></div>
+              </div>
+              <div class="row" ></div>
+              <div class="row">
+                <div class="one wide column"></div>
+                <div class="five wide column">
+                  <img class="ui image" src="https://www.mooncatchermeme.com/wp-content/uploads/sites/11/2019/03/BAH-logo-bg-740x492.jpg">
+                </div>
+                <div class="one wide column"></div>
+                <div class="eight wide column left aligned">
+                  <div>
+                    <h2 class="in-line padding-right-5 booz-title-2">Booz</h2>
+                    <h2 class="in-line padding-right-5">Allen</h2>
+                    <h2 class="in-line booz-title-3">Hamilton</h2>
+                    <hr class="in-line margin-right-10 margin-left-10">
+                    <h4 class="in-line">Tampa, FL</h4>
+                    <h5 class="margin-top-0 padding-top-5">Technology Analyst</h5>
+                  </div>
+                </div>
+                <div class="one wide column"></div>
+              </div>
+            </div>
+          </div>
+          <div class="two wide column"></div>
 
+        </div>
+      </section>
 
-  <main role="main" class="background center-img">
-    <section id="intro">
-      <div class="row" style=" margin: 50px 0px 200px 0px; ">
-        <div class="col-sm-12 container">
-          <h1 class="display-2 center tittle">Hello, this is who I am!</h1>
-          <h2 class="display-4 center tittle"> My name is Eduardo Graziano</h2>
-        </div>
-        <div class="col-sm-12 container">
-          <img class="center-img image" src="assets/p.png" alt="Avatar">
-        </div>
-      </div>
-    </section>
-    <section id="me" class="jumbotron">
-      <div class="row" style=" margin: 20px 0px 0px 0px; ">
-        <div class="col-sm-3">
-        </div>
-        <h1 class="display-3 tittle col-sm-9">Me</h1>
-      </div>
-      <hr>
-    </section>
-  </main>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
+  </div>
 </body>
 
 </html>
